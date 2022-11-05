@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo vídeos hospedados localmente</title>
+</head>
+<body>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    
+    <video width="1100" poster="imagens/minha-imagem.jpg" controls> <!-- a tag poster é para colocar thumb(capas nos videos)-->
+        <source src="midia/meuvideomp4.mp4" type="video/mp4">
+        <source src="midia/meuvideowebm.webm" type="video/webm">
+        <source src="midia/meuvideom4v.m4v" type="video/mp4">
+
+        <!--lembrar que formato ogv não é compativel com safari(apple) então se atente que teriamos que colocar todos os formatos possiveis no servidor o que seria muito caro, já que usaria muita banda do site-->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+</body>
+</html>
