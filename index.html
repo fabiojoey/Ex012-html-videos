@@ -9,7 +9,7 @@
 <body>
     <p>Este vídeo está hospedado no meu próprio servidor.</p>
     
-    <video width="1100" poster="imagens/minha-imagem.jpg" controls> <!-- a tag poster é para colocar thumb(capas nos videos)-->
+    <video width="560" poster="imagens/minha-imagem.jpg" controls> <!-- a tag poster é para colocar thumb(capas nos videos)-->
         <source src="midia/meuvideomp4.mp4" type="video/mp4">
         <source src="midia/meuvideowebm.webm" type="video/webm">
         <source src="midia/meuvideom4v.m4v" type="video/mp4">
@@ -17,6 +17,13 @@
         <!--lembrar que formato ogv não é compativel com safari(apple) então se atente que teriamos que colocar todos os formatos possiveis no servidor o que seria muito caro, já que usaria muita banda do site-->
         <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
     </video>
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="560" height="360" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <!--Use sempre a opção incorporar tanto no youtube quanto no vimeo-->
+    <iframe src="https://player.vimeo.com/video/398852209?h=76a4ad8a79" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 
 </body>
 </html>
